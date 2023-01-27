@@ -31,6 +31,10 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
+  get: ^4.6.5
+  http: ^0.13.5
+  web_socket_channel: ^2.3.0
+
   font_awesome_flutter: ^10.3.0
 
   # The following adds the Cupertino Icons font to your application.
@@ -63,6 +67,7 @@ flutter:
   assets:
     - assets/images/events/
     - assets/images/users_photos/
+    - assets/icon_set/
   #   - images/a_dot_ham.jpeg
 
   # An image asset can refer to one or more resolution-specific "variants", see
@@ -80,6 +85,13 @@ flutter:
     - family: Arista
       fonts:
         - asset: assets/fonts/Arista.ttf
+    
+    - family: Roboto
+      fonts:
+        - asset: assets/fonts/Roboto.ttf
+
+
+        
   #       - asset: fonts/Schyler-Italic.ttf
   #         style: italic
   #   - family: Trajan Pro
